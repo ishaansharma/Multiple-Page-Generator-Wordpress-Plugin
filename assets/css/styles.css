@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+}
+
+.page {
+    padding: 5px;
+    border: thin solid #226586;
+    margin: auto;
+    width: 60em;
+    box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.page-keywords {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyword {
+    display: flex;
+    margin-top: 5px;
+    padding: 5px 0px 5px 0px;
+    border-bottom: thin solid rgba(0, 0, 0, 0.1);
+}
+
+.page input {
+    display: inline-block;
+    width: 12em;
+}
+
+.keyword-value {
+    min-width: 30em;
+}
+
+.keywords-page-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagesList {
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 5em;
+    border: thin solid #226586;
+    box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.myForm {
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    width: 95%;
+    margin-top: 5em;
+    border: thin solid #226586;
+    box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.myForm h2 {
+    font-style: italic;
+    color: #226586;
+}
+
+.extras {
+    margin: 5px;
+    width: 50%;
+    padding: 5px;
+    border: thin solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 4px 9px -4px rgba(0, 0, 0, 0.75);
+}
+
+.extras p {
+    display: inline-block;
+}
+
+.extras textarea {
+    width: 100%;
+    resize: none;
+}
+
+.extras-keywords-div {
+    padding: 3px;
+    font-style: italic;
+}
+
+.pg-keyword-button {
+    outline: none;
+    border-radius: 3px;
+    border: thin solid rgba(252, 252, 252, 0.3);
+    box-shadow: 1px 1px 2px -1px rgba(0, 0, 0, 0.62);
+    padding: 1px 2px;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(38, 136, 182);
+    color: white;
+}
+
+.pg-keyword-button:hover {
+    border: thin solid rgba(0, 0, 0, 0.5);
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pg-keyword-button:active {
+    box-shadow: none;
+}
+
+.content {
+    margin: 5px;
+    padding: 5px;
+    border: thin solid rgba(0, 0, 0, 0.4);
+    width: 50%;
+    box-shadow: 2px 4px 9px -4px rgba(0, 0, 0, 0.75);
+}
+
+.content h2 {
+    text-align: center;
+    border-bottom: thin solid rgba(0, 0, 0, 0.1);
+}
+
+.extras>div {
+    margin-bottom: 4px;
+    padding: 3px;
+    border: thin solid rgba(0, 0, 0, 0.2);
+}
+
+.form-submit {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-top: 15px;
+}
